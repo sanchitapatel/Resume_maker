@@ -95,8 +95,8 @@ def builder(request):
             technologies_used_2=request.POST.get('technologies_used_2', ''),
             project_url_2=request.POST.get('project_url_2', ''),
             # Skills
-            technical_skills=request.POST.get('technical_skills', ''),
-            soft_skills=request.POST.get('soft_skills', ''),
+            technical_skills=request.POST.get('Technical_skills', ''),
+            soft_skills=request.POST.get('Soft_skills', ''),
             # language_proficiency=request.POST.get('language_proficiency', ''),
         )
 
