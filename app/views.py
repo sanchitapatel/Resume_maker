@@ -26,9 +26,9 @@ def builder(request):
             email=request.POST.get('email'),
             address=request.POST.get('address', ''),
             dob=request.POST.get('dob', None),
-            nationality=request.POST.get('nationality', ''),
-            linkedin=request.POST.get('linkedin', ''),
-            portfolio=request.POST.get('portfolio', ''),
+            nationality=request.POST.get('Nationality', ''),
+            linkedin=request.POST.get('Linkedin', ''),
+            portfolio=request.POST.get('Portfolio', ''),
             unique_identifier=unique_identifier,
 
 
